@@ -28,5 +28,9 @@ print(age - birth_year)
 int()
 float()
 bool()
-type()
+type(name1)
 
+#example
+weight_pd = int(input("Weight: "))
+weight_kg = weight_pd * 0.45
+print(weight_kg)
