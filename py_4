@@ -1,0 +1,21 @@
+#Arithmetic operations
+print(10 + 3)
+print(10 / 3)   #float
+print(10 // 3)  #integer
+print(10 % 3)   #mod
+print(10 ** 3)  #power
+
+x = 10
+x = x + 3
+x += 3
+x = 10 + 3 * 2 ** 2  #Order of execution
+print(x)
+
+#Math functions
+import math        #math module - usage of dot operations of math
+                   #google math module for the functions it contains
+
+x = 2.9
+y = -2.9
+print(round(x))
+print(abs(y))

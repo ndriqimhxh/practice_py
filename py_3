@@ -1,1 +1,21 @@
+#string format
+first = 'John'
+last = 'Smith'
+message = first + ' [' + last + '] is a coder'    #not ideal hard to visualize
+print(message)
 
+#solution = formatted string
+msg = f'{first} [{last}] is a coder'  #f means formatted strings and {} are used for variables
+print(msg)
+
+#string methods
+course = 'Python for Beginners'
+print(len(course))  #len means lengths of string
+#dot operator
+print(course.upper())
+print(course.find('O'))    #there is no O in the word so it will show -1 which means False
+print(course.replace('P', 'J'))  #first argument is the part which is already in the word changed into the second argument
+print('Python' in course)   #check if the word is in the string and the type of in is boolean
+print('python' in course)
+
+#Python is character sensitive language
