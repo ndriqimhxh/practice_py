@@ -1,1 +1,18 @@
+#second file of python tutorial
 
+#strigs
+text="""Gey
+how are you
+"""
+print(text)
+
+name = "Ndriqim"
+print(name)
+print(name[0])
+print(name[-1])
+print(name[0:3])
+print(name[1:])
+
+#Example
+name1 = "Jennifer"
+print(name1[1:-1])
