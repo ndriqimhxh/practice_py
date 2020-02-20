@@ -1,0 +1,57 @@
+#if statements
+#Example
+is_hot = True
+is_cold = False
+
+if is_hot:                        #condition
+    print("It's a hot day.")
+elif is_cold:
+    print("It's a cold day.")
+else:
+    print("It's a lovely day.")
+print("Enjoy your day.")
+
+#Example
+good_credit = True
+price_of_house = 1000000
+if good_credit:
+    print(price_of_house * 0.1)
+else:
+    print(price_of_house * 0.2)
+
+#Example
+high_income = True
+
+if good_credit and high_income:         #logical operators: and, or, not
+    print("Eligible for loan")
+
+#Comparison
+temp = int(input("What is the temperature? "))
+if temp > 30:
+    print("It's a hot day.")
+else:
+    print("It's not a hot day.")
+
+#Example
+name = input("What is your name? ")
+while name:
+    if len(name) < 3:
+        print("Name must be at least 3 characters long. Please try again.")
+        name = input("What is your name? ")
+    elif len(name) > 50:
+        print("Name must be maximum 50 characters long. Please try again.")
+        name = input("What is your name? ")
+    else:
+        print("Name looks good!")
+        break
+
+#Example
+weight = input("What is your weight? ")
+unit = input("Lbs or Kg? ")
+if unit == 'L' or unit == 'l':
+    print("You are "+ weight + " lbs")
+elif unit == 'K' or unit == 'k':
+    print("You are "+ weight + " kilos")
+else:
+    print("Error!")
+
