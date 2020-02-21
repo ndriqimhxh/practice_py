@@ -1,0 +1,24 @@
+#For loops                   While loops - used to perform same task many times
+#item - is a list so we use a list in the for loop
+for item in [1, 2, 3, 4]:
+    print(item)
+for item in range(10):             #range is list of numbers
+    print(item)
+for item in range(5, 10, 2):
+    print(item)
+#Example
+sum = 0
+for prices in [10, 20, 30]:
+    sum += prices
+print(f"Total: {sum}")              #formatted string
+
+#nested loops              Matrices
+for item in range(3):
+    x = item
+    for item in range(3):
+        y = item
+        print(f"({x},{y})")
+#Exercise
+numbers = [5,2,5,2,2]
+for x in numbers:
+    print("x"*x)
