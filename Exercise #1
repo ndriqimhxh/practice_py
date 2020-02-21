@@ -5,7 +5,7 @@ stop - to stop the car
 quit - to exit''')
     command = input()
     while command:
-        if command == 'start' or command == 'START':
+        if command == 'start' or command == 'START':     #command.lower() != "quit"
             print("Car started...Ready to go!")
             break
         elif command == 'stop' or command == 'STOP':
