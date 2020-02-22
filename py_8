@@ -1,0 +1,22 @@
+#Lists
+names = ['John', 'Mary', 'Mosh']
+names[0] = 'Jon'
+print(names[1:])
+print(names)
+print(names[0][0])
+
+#Example
+a = int(input("Enter the number of elements in the list: "))
+numbers = []                               #create an empty list and then using .append() add elements to the list
+i = 0
+for number in range(a):
+    number = int(input(f"{i} number: "))
+    numbers.append(number)                  #to add the number to the list
+    i += 1
+largest_number = numbers[0]
+for number in numbers:
+    if number > largest_number:
+        largest_number = number
+print(f"The largest number of the list: {largest_number}")
+
+
