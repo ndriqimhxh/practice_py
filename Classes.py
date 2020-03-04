@@ -26,3 +26,10 @@ class Person:
 john = Person("John Smith")
 print(john.name)
 john.talk()
+
+def find_max(numbers):
+    max = numbers[0]
+    for number in numbers:
+        if number > max:
+            max =  number
+    print(max)
