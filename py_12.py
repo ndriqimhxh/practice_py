@@ -12,3 +12,11 @@ def greet_user1(first_name, last_name):       #function with argument
 
 
 greet_user1("Ndriqim", "Hoxha")
+
+#Example
+def square(number):
+    return number * number
+
+
+result = square(2)
+print(result)
